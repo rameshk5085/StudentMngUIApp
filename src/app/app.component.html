@@ -1,0 +1,13 @@
+<div class="Container">
+  <h2>Students Information</h2>
+
+  <kendo-grid
+    [kendoGridBinding]="getStudentsGrid"
+    [sortable]="true"
+    [filterable]="true"
+  >
+    <kendo-grid-column title="Name" field="name"></kendo-grid-column>
+    <kendo-grid-column title="Age" field="age"></kendo-grid-column>
+    <kendo-grid-column title="Hobbies" field="hobbies"></kendo-grid-column>
+  </kendo-grid>
+</div>
